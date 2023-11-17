@@ -9,8 +9,8 @@ public class Cat extends Animal implements Pet{
 		this.name = name;
 	}
 	
-	public void Cat() {
-		
+	public Cat(int legs) {
+		super(legs);
 	}
 	
 	public String getName() {

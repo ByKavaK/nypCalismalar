@@ -15,11 +15,13 @@ public class Test {
 		Cat a3 = new Cat(4, "Sezar");
 		a3.eat();
 		a3.yaz();
+		a3.walk();
 		a3.play();
 		System.out.println("--------------------");
 		Fish a4 = new Fish(0, "Hamza");
 		a4.eat();
 		a4.yaz();
+		a4.walk();
 		a4.play();
 		
 	}

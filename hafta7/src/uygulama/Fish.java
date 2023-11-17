@@ -9,8 +9,8 @@ public class Fish extends Animal implements Pet{
 		this.name = name;
 	}
 	
-	public void Fish() {
-		
+	public Fish(int legs) {
+		super(legs);
 	}
 
 	public String getName() {
